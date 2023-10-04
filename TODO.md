@@ -1,6 +1,6 @@
 <hr>
 
-### Setmana del 24/10-30/10
+### Setmana del 02/10-06/10
 - Exercicis Callable, Runnable i Executors
 
 TODO
