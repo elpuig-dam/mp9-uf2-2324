@@ -10,10 +10,13 @@ TODO
 - [x] Cursa dde cargols
   > Entendre l'exercici der la cursa de cargols amb ScheduledThreadPool.
   > Fitxers: [Cargol](src/a1/Cargol.java), [Monitor Cargols](src/a1/MonitorCargols.java) i [Cursa de Cargols](src/a1/CursaCargols.java)
+- [x] Exercici Donar punts i llegir punts a un Jugador
+  > Fitxers: [Jugador](src/a1/Jugador.java), [Donar Punts](src/a1/pDonarPuntsJugador.java), [Llegir Punts](src/a1/pLlegirPuntsJugadors.java) i [Jugar](src/a1/Jugar.java)  
 - [ ] Exercici Paletes i FerParet
   > Tenim uns paletes que tenen la tasca de construir una paret a base de posar maons.
   > Podeu veure el codi als fitxers [Paleta.java](src/a1/Paleta.java) i [FerParet.java](src/a1/FerParet.java).
-  > Volem adaptar aquest codi perquè els paletes treballin alhora i no com ara, que fins que un paleta no ha posat els seus maons no continua l'altre.  
-  > *_Atenció: fer servir Runnable en comptes de Callable i un ThreadPoolExecutor (NO un ScheduledThreadPool)_
+  > Volem adaptar aquest codi perquè els paletes treballin alhora (concurrentment) i no com ara, 
+  > que fins que un paleta no ha posat els seus maons no continua l'altre.  
+  > *_Atenció: fer servir Runnable en comptes de Callable i un ThreadPoolExecutor (NO un ScheduledThreadPool)_ Això implica que el mètode invokeAll no serveix per executar concurrentment la llista de paletes(Runnables). Trobeu la manera de fer-ho!
 
 <hr>
