@@ -32,4 +32,7 @@ TODO
   >Crear una classe CompteEstalvi amb els mètodes dels apunts, ingressar i treure diners, després en un programa main
     crear 10 fils que facin 1000 operacions de cada tipus. Comprovar que el resultat és el correcte.
 - [ ] [Comandament i família](src/a3/comandament)
-- [ ] [Pot de galetes]()
+- [ ] [Pot de galetes]()  
+  > 1. Els MembresFamilia que volen agafar el pot (Threads) són: el pares posen galetes al pot, els fills agafen 1 galetes del pot  
+  > 2. Pot de galetes (monitor) : mètodes-> agafarGaleta, deixarPot, omplirpot(omplir fins al maxim de capacitat)  
+  > 3. Condicions: Els pares no poden agafar el pot si no està buit i els fills no poden agafar el pot si està buit   
