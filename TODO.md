@@ -22,13 +22,14 @@ TODO
 <hr>
 
 ### a2  (Fork-Join Pool)  
-- [ ] Exercici dels apunts [Maxim](src/a2/Maxim.java)  i [MaximTask](src/a2/MaximTask.java) 
-- [ ] [Càlcul del Factorial](src/a2/FactorialTask.java)  
+- [x] Exercici dels apunts [Maxim](src/a2/Maxim.java)  i [MaximTask](src/a2/MaximTask.java) 
+- [x] [Càlcul del Factorial](src/a2/FactorialTask.java)  
 
 
 ### a3 (Semàfors, Monitors i Sincronització)
-- [ ] Threads
-- [ ] Exercici CompteEstalvi (synchronized)
+- [x] Threads
+- [x] Exercici CompteEstalvi (synchronized)
   >Crear una classe CompteEstalvi amb els mètodes dels apunts, ingressar i treure diners, després en un programa main
     crear 10 fils que facin 1000 operacions de cada tipus. Comprovar que el resultat és el correcte.
 - [ ] [Comandament i família](src/a3/comandament)
+- [ ] [Pot de galetes]()
